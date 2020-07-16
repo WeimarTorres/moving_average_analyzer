@@ -16,7 +16,8 @@ from pages.logic.movingAverage import calculate_moving_average_crossovers
 from pages.logic.checker import checkValues, checkValuesBest
 from pages.logic.findBest import findBest
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
+#<meta name="google-site-verification" content="QvrdvV6rCjkEoRpesTdnsw4240FVz-ftbSMrTJ5yexc" />
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY], meta_tags=[{"name": "google-site-verification", "content": "QvrdvV6rCjkEoRpesTdnsw4240FVz-ftbSMrTJ5yexc"},])
 app.config.suppress_callback_exceptions = True
 app.title = 'Moving Average Analyzer'
 
